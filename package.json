@@ -4,7 +4,9 @@
   "description": "a generic bloom filter with parameterizable hash functions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers js:babel/register --watch",
+    "build": "babel src/bloomish.js --out-file lib/bloomish.js",
+    "build:debug": "babel src/bloomish.js --out-file lib/bloomish.js --source-maps"
   },
   "keywords": [
     "bloom",
@@ -14,5 +16,11 @@
     "function"
   ],
   "author": "Omar Kamali",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.2.6",
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  }
 }
