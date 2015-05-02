@@ -2,7 +2,7 @@
   "name": "bloomish",
   "version": "0.0.1",
   "description": "a generic bloom filter with parameterizable hash functions",
-  "main": "index.js",
+  "main": "lib/bloomish.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register --watch",
     "build": "babel src/bloomish.js --out-file lib/bloomish.js",
