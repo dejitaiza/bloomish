@@ -1,0 +1,18 @@
+{
+  "name": "bloomish",
+  "version": "0.0.1",
+  "description": "a generic bloom filter with parameterizable hash functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "bloom",
+    "filter",
+    "custom",
+    "hash",
+    "function"
+  ],
+  "author": "Omar Kamali",
+  "license": "MIT"
+}
